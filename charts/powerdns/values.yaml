@@ -91,7 +91,7 @@ postgres:
     postgresqlPassword: pdnspass
     postgresqlDatabase: pdns
 external:
-  enabled: true
+  enabled: false
   type: mysql
   host: mysql.namespace.svc.cluster.local
 
