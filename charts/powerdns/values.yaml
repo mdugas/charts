@@ -90,6 +90,10 @@ postgres:
     postgresqlUsername: pdns
     postgresqlPassword: pdnspass
     postgresqlDatabase: pdns
+external:
+  enabled: true
+  type: mysql
+  host: mysql.namespace.svc.cluster.local
 
 # Probes configuration
 probes:
